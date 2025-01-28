@@ -3,5 +3,5 @@ import pytesseract
 image_path = 'sampletest2.png'  
 image = Image.open(image_path)
 extracted_text = pytesseract.image_to_string(image)
-print("Text om image is: ")
+print("Text on image is: ")
 print(extracted_text)
